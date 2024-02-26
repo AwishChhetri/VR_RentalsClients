@@ -4,7 +4,7 @@ import App from './App.jsx'
 import './index.css'
 import axios from 'axios'
 
-axios.defaults.baseURL="hhttps://vrserver.onrender.com"
+axios.defaults.baseURL="https://vrserver.onrender.com"
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <App />
