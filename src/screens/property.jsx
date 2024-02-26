@@ -31,17 +31,17 @@ const styles = {
         fontSize: '2rem',
         fontWeight: 'bold',
         marginBottom: '10px',
-        color: '#333', // Dark gray color
+        color: '#333', 
     },
     subHeading: {
         fontSize: '1.5rem',
         marginTop: '30px',
-        color: '#007bff', // Blue color
+        color: '#007bff', 
     },
     text: {
         fontSize: '1.2rem',
         marginBottom: '5px',
-        color: '#555', // Gray color
+        color: '#555', 
     },
     image: {
         width: '100%',
