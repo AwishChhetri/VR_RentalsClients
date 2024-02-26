@@ -43,12 +43,8 @@ export const PropUpload = () => {
             <input value={location} type="text" onChange={(e) => setLocation(e.target.value)} />
             <label>Price</label>
             <input value={price} type="number" onChange={(e) => setPrice(e.target.value)} />
-            <label >Type</label>
-            <select id="type" value={Type} onChange={(e) => setType(e.target.value)}>
-            <option value="Rents">Rents</option>
-            <option value="Property">Property</option>
-            <option value="Land">Land</option>
-            </select>
+            <label>Type</label>
+            <input value={Type} type="text" onChange={(e) => setType(e.target.value)} /> 
             <label>Image</label>
             <input type="file" onChange={handleFileChange} />
             <button onClick={onSubmit}>Submit</button>
