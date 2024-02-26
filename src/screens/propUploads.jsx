@@ -53,7 +53,7 @@ export const PropUpload = () => {
                 <label htmlFor="type" style={{ marginRight: '10px' }}>Type:</label>
                 <select id="type" value={Type} onChange={(e) => setType(e.target.value)}>
                     <option value="">Select Type</option>
-                    <option value="Rents">Rents</option>
+                    <option value="Rent">Rents</option>
                     <option value="Property">Property</option>
                     <option value="Land">Land</option>
                 </select>
